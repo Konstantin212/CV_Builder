@@ -1,57 +1,37 @@
-# CV Builder
+# Vite + React + Typescript + Eslint + Prettier
 
-This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) + [Tailwind](https://tailwindcss.com/) + [RTK](https://redux-toolkit.js.org/) + [eslint](https://eslint.org/) boilerplate built with [Vite](https://vitejs.dev).
+A starter for React with Typescript with the fast Vite and all static code testing with Eslint and formatting with Prettier.
 
-## What's inside?
+![Vite + React + Typescript + Eslint + Prettier](/resources/screenshot.png)
 
--   [ReactJS](https://reactjs.org)
--   [Vite](https://vitejs.dev)
--   [TypeScript](https://www.typescriptlang.org)
--   [Tailwind](https://tailwindcss.com/)
--   [RTK](https://redux-toolkit.js.org/)
--   [ESLint](https://eslint.org)
+I found out about Vite and I wanted to have a boilerplate for the technologies that I use. You can find more about these in the following links: [Vite](https://github.com/vitejs/vite), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/).
 
-## Getting started
+## Installation
 
-1. Clone the repository.
+Clone the repo and run `yarn install`
 
-    ```bash
-    git clone https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint.git
-    ```
+or Run command
 
-2. Access the project.
+```
+npx degit TheSwordBreaker/vite-reactts-eslint-prettier project-name
+```
 
-    ```bash
-    cd vite-reactts-tailwind-rtk-eslint
-    ```
+## Start
 
-3. Make it your own repository
+After the successfull installation of the packages: `yarn dev`
 
-    ```bash
-    rm -rf .git
-    git init
-    ```
+## Steps in Vscode
 
-4. Install dependencies.
+#### (works with better with this template)
 
-    ```bash
-    npm i
-    ```
+1. Install Eslint and prettier extension for vs code.
+2. Make Sure Both are enabled
+3. Make sure all packages are Installed. (Mostly Eslint and prettier in node_modules)
+4. Enable formatOnSave of vs code
+5. Open a .tsx file and check if the bottom right corners of vs code have Eslint and Prettier with a double tick
 
-5. Start the development server.
+![Screenshot (253)_LI](https://user-images.githubusercontent.com/52120562/162486286-7383a737-d555-4f9b-a4dd-c4a81deb7b96.jpg)
 
-    ```bash
-    npm run dev
-    ```
+If Everything is Good Then It Should Work, but let me new if something else happens
 
-6. Build for production.
-
-    ```bash
-    npm run build
-    ```
-
-7. Test your production build.
-
-    ```bash
-    npm run serve
-    ```
+Made with ❤️ by theSwordBreaker(we Destory all types of sword ⚡)
